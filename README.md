@@ -10,14 +10,14 @@
 
     KLocation("http://www.baidu.com?a=1&b=2")
     
-    //Objcet{
+    /*Objcet{
         url:"http://www.baidu.com?a=1&b=2",
         host : "www.baidu.com",
         protocol : "http:",
         pathname : "/",
         port :  ''
         hostname : "www.baidu.com"
-        }
+        }*/
         
 方法：
 
