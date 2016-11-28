@@ -1,3 +1,7 @@
+
+**构建状态**
+[![Build Status](https://travis-ci.org/karzanOnline/url-location.svg?branch=master)](https://travis-ci.org/karzanOnline/url-location)
+
 **KLocation**
 
 使用正则匹配url模拟返回window.location的值
