@@ -33,7 +33,7 @@ or
         protocol : "https:",
         pathname : "/",
         port :  ''
-        hostname : "www.github.com"
+        hostname : "github.com"
         }*/
         
 ##Method：
@@ -43,35 +43,35 @@ or
   @return Object
   
 ```
-    KLocation(url).getParam() 
+  KLocation(url).getParam() 
     // {a:1,b:2}
 ```
 * getHost() // 获取url对应host
 
   @return string
 ```
-    KLocation(url).getHost() 
-    // github.com
+  KLocation(url).getHost() 
+  // github.com
 ```
 * getProtocol() // 获取url对应协议
   
   @return string
 ```
-    KLocation(url).getProtocol()
-    // https:
+  KLocation(url).getProtocol()
+  // https:
 ```
 * getPort() // 获取url对应端口
 
   @return string
 ```
-    KLocation(url).getPort()
-    // ''
+  KLocation(url).getPort()
+  // ''
 ```
 * getPathname() // 获取url对应pathname
 
   @return string
 ```
-    KLocation(url).getPathname()
-    // "/"
+  KLocation(url).getPathname()
+  // "/"
 ```
     
