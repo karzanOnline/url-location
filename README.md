@@ -1,10 +1,10 @@
-#KLocation
+# KLocation
 
 
 使用正则匹配url模拟返回window.location的值
 
 
-##构建状态
+## 构建状态
 
 
 
@@ -12,7 +12,7 @@
 
 
 
-##使用方法
+## 使用方法
 
 ```
     <script src="./KLocation.js"></script>
@@ -22,7 +22,7 @@ or
     npm install klocation
 ```
 
-##实例化：
+## 实例化：
 
 
     KLocation("https://github.com?a=1&b=2")
@@ -36,7 +36,7 @@ or
         hostname : "github.com"
         }*/
         
-##Method：
+## Method：
 
 * getParam() // 获取url参数集合返回一个对象
 
