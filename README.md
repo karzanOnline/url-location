@@ -13,28 +13,29 @@
 ## 使用方法
 
 ```js
-    <script src="./KLocation.js"></script>
+<script src="./KLocation.js"></script>
 ```
 
 or
 
-```js
-    npm install klocation
+```shell
+npm install klocation
 ```
 
 ## 实例化：
 
+```js
+KLocation("https://github.com?a=1&b=2")
 
-    KLocation("https://github.com?a=1&b=2")
-    
-    /*Objcet{
-        url:"https://github.com?a=1&b=2",
-        host : "github.com",
-        protocol : "https:",
-        pathname : "/",
-        port :  ''
-        hostname : "github.com"
-        }*/
+/*Objcet{
+    url:"https://github.com?a=1&b=2",
+    host : "github.com",
+    protocol : "https:",
+    pathname : "/",
+    port :  ''
+    hostname : "github.com"
+    }*/
+```
         
 ## 方法：
 
@@ -43,8 +44,10 @@ or
  获取url参数集合返回一个对象
   
 ```js
-  KLocation(url).getParam() 
-    // {a:1,b:2}
+KLocation(url).getParam() 
+
+// 返回值
+// {a:1,b:2}
 ```
 
 ### getHost
@@ -52,34 +55,42 @@ or
 获取url对应host
 
 ```js
-  KLocation(url).getHost() 
-  // github.com
+KLocation(url).getHost() 
+
+// 返回值
+// github.com
 ```
 
 ### getProtocol
 
 获取url对应协议
 
-```
-  KLocation(url).getProtocol()
-  // https:
+```js
+KLocation(url).getProtocol()
+
+// 返回值
+// https:
 ```
 
 ### getPort
 
 获取url对应端口
  
-```
-  KLocation(url).getPort()
-  // ''
+```js
+KLocation(url).getPort()
+
+// 返回值
+// ''
 ```
 
 ### getPathname
 
 获取url对应pathname
 
-```
-  KLocation(url).getPathname()
-  // "/"
+```js
+KLocation(url).getPathname()
+
+// 返回值
+// "/"
 ```
     
